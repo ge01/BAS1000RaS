@@ -2,7 +2,7 @@
 function reverseString(str) {
   var strReverse = [];
   strReverse = str.split('').reverse().join('');
-  console.log(strReverse);
+  str = strReverse;  
   return str;
 }
 
